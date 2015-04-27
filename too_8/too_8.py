@@ -4,13 +4,13 @@ __author__ = "Taaniel Jakobson"
 __version__ = "0.0002a"
 import os
 
-def fib(n):                                     
+def fib(n):                                     #Generate fibonacci number upto n
     a, b = 0, 1
-    fib_number = []
+    fib_number = []                             #Create empty list to hold fibonacci numbers
     while b < n:
-        a, b = b, a+b
-        fib_number.append(b)
-    return fib_number
+        a, b = b, a+b                           #Calculate next fib number...
+        fib_number.append(b)                    #... and add it to the list
+    return fib_number                           #returns list of fibonacci numbers
 
 def main():
     print("write Fibonacci series up to n")
