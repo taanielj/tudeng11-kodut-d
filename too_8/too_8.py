@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 
 __author__ = "Taaniel Jakobson"
-__version__ = "0.0001a"
+__version__ = "0.0002a"
 import os
-from sys import argv
 
-
+def fib(n):                                     
+    a, b = 0, 1
+    fib_number = []
+    while b < n:
+        a, b = b, a+b
+        fib_number.append(b)
+    return fib_number
 
 def main():
-    def fib(n):    # write Fibonacci series up to n
-        a, b = 0, 1
-        text_file = open("output.txt", "w")
-        while b < n:
-            print(b)
-            text_file.write(str(b))
-            text_file.write("\n")
-            a, b = b, a+b
-        text_file.close()   
     print("write Fibonacci series up to n")
     n = int(input("n="))
-    fib(n)
+    output = fib(n)
+    text_file = open("output.txt", "w")
+    text_file.write(str(output))
+    text_file.close()
+    return(output)
 if __name__ == "__main__":
     main()
