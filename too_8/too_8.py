@@ -19,6 +19,7 @@ def main():
     text_file = open("output.txt", "w")
     text_file.write(str(output))
     text_file.close()
+    print(output)
     return(output)
 if __name__ == "__main__":
     main()
