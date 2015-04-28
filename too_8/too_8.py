@@ -8,8 +8,8 @@ def fib(n):                                     #Generate fibonacci number upto 
     a, b = 0, 1
     fib_number = []                             #Create empty list to hold fibonacci numbers
     while b < n:
-        a, b = b, a+b                           #Calculate next fib number...
         fib_number.append(b)                    #... and add it to the list
+        a, b = b, a+b                           #Calculate next fib number...
     return fib_number                           #returns list of fibonacci numbers
 
 def main():
