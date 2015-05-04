@@ -1,15 +1,9 @@
-
-
-# coding: utf-8
-
-# In[1]:
-
 #!/usr/bin/env python3
 
 __author__ = "Taaniel Jakobson"
 __version__ = "0.0002a"
 import os
-from Bio import Seq
+from Bio.Seq import Seq
 from Bio import SeqIO
 from Bio.Alphabet import IUPAC
 
