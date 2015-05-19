@@ -1,0 +1,6 @@
+Kodutöö 11
+
+1. vignette("mzR")
+2. mzR pakub liidest, mis on võimeline lugema ühdselt mitut tüüpi toor mass spektromeetria andmeformaati (mzData, mzXML, mzML ning mzIdentML). Kõige olulisem aspekt on see, et ligipääs datale on kiire ja effektiivse mälukasutusega. Seda võimaldab kõvakettalt juhupöördumine, (ingl k random-access – kui eesti keel on teiseks keeleks muutunud ;)) mis ei nõua kogu data pidevat mälus hoidmist.  mzR on lihtne parser ja visualiseerimist ta ei võimalda, selleks on edasised paketid
+3. Edasisi operatsioone nagu protsessimine, kvantifitseerimine, normeerimine ja plottimine võimaldavad lisa paketid (MSnbase ja isobar).
+
